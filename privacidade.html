@@ -13,67 +13,97 @@
 <body>
 
 <h1>Política de Privacidade — Motivação Diária Publisher</h1>
-<p class="data">Vigente desde 24 de setembro de 2026.</p>
+<p class="data">Vigente desde 24 de setembro de 2026. Atualizada em 26 de setembro de 2026.</p>
 
 <p>O <b>Motivação Diária Publisher</b> é uma ferramenta pessoal, executada apenas no computador do dono do canal
 do YouTube "Motivação Diária". Ela não é oferecida ao público e não tem outros usuários.</p>
 
 <h2>O que a ferramenta faz com a API do YouTube</h2>
+<p><b>Este app usa os YouTube API Services</b> (Serviços de API do YouTube). Ao usá-lo, você concorda com os
+<a href="https://www.youtube.com/t/terms">Termos de Serviço do YouTube</a>.</p>
 <p>A ferramenta usa os Serviços de API do YouTube (YouTube Data API v3) com uma única permissão
 (<code>youtube.upload</code>) para enviar vídeos curtos produzidos pelo próprio dono ao <b>seu próprio canal</b>,
 como privados e com data de publicação agendada. Ela não lê, não coleta e não exibe dados de outros usuários
 ou canais do YouTube.</p>
 
-<h2>Dados armazenados</h2>
+<h2>Dados acessados e armazenados</h2>
 <ul>
-  <li>O token de acesso OAuth fica guardado somente no computador do dono do canal, em um arquivo local.</li>
-  <li>O identificador (ID) de cada vídeo enviado é salvo localmente, para o dono acompanhar suas próprias publicações.</li>
+  <li><b>Token de acesso OAuth</b> — guardado somente no computador do dono do canal, no arquivo local
+  <code>credenciais/token.json</code>. Serve apenas para enviar os vídeos ao canal do próprio dono.</li>
+  <li><b>ID de cada vídeo enviado</b> — salvo localmente no registro de vídeos da ferramenta, para o dono acompanhar
+  as próprias publicações (horário e status de cada envio).</li>
+  <li>A ferramenta não acessa nenhum outro dado da conta Google ou do YouTube.</li>
   <li>Nenhum dado é enviado a servidores próprios ou de terceiros, vendido ou compartilhado. Não há cookies, análise de uso nem publicidade.</li>
 </ul>
 
 <h2>Como revogar o acesso</h2>
-<p>O acesso pode ser revogado a qualquer momento em
-<a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a>.
-Ao revogar, basta apagar o arquivo local do token para remover todos os dados de acesso.</p>
+<p>O acesso pode ser revogado a qualquer momento nas configurações de segurança da conta Google:
+<a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>.</p>
+
+<h2>Eliminação de dados e prazo de retenção</h2>
+<ul>
+  <li>Para apagar os dados, o dono apaga o arquivo <code>credenciais/token.json</code> e o registro de vídeos
+  enviados no próprio computador. Não existe cópia em nenhum outro lugar.</li>
+  <li>Depois da revogação, o token deixa de funcionar e nenhum dado do YouTube ou da conta Google é mais acessado.</li>
+  <li>Retenção: o token fica guardado apenas enquanto a ferramenta estiver em uso e é apagado ao revogar o acesso
+  ou ao deixar de usar a ferramenta. Os IDs dos vídeos ficam no registro local até o dono apagá-lo.</li>
+  <li>Pedidos de exclusão podem ser enviados para <a href="mailto:audiotimports@gmail.com">audiotimports@gmail.com</a>
+  e são atendidos em até 7 dias.</li>
+</ul>
 
 <h2>Termos e políticas do YouTube e do Google</h2>
 <p>Ao usar esta ferramenta, aplicam-se os <a href="https://www.youtube.com/t/terms">Termos de Serviço do YouTube</a>
 e a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</p>
 
 <h2>Contato</h2>
-<p>audiotimports@gmail.com</p>
+<p><a href="mailto:audiotimports@gmail.com">audiotimports@gmail.com</a></p>
 
 <hr>
 
 <h1 lang="en">Privacy Policy — Motivação Diária Publisher</h1>
-<p class="data" lang="en">Effective September 24, 2026.</p>
+<p class="data" lang="en">Effective September 24, 2026. Updated September 26, 2026.</p>
 <div lang="en">
 <p><b>Motivação Diária Publisher</b> is a personal tool that runs only on the computer of the owner of the
 "Motivação Diária" YouTube channel. It is not offered to the public and has no other users.</p>
 
 <h2>What the tool does with the YouTube API</h2>
+<p><b>This app uses YouTube API Services.</b> By using it, you agree to be bound by the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.</p>
 <p>The tool uses YouTube API Services (YouTube Data API v3) with a single scope (<code>youtube.upload</code>) to upload
 short videos produced by the owner to <b>the owner's own channel</b>, as private videos with a scheduled publish
 time. It does not read, collect or display data from any other YouTube users or channels.</p>
 
-<h2>Stored data</h2>
+<h2>Data accessed and stored</h2>
 <ul>
-  <li>The OAuth access token is stored only on the channel owner's computer, in a local file.</li>
-  <li>The ID of each uploaded video is saved locally so the owner can track their own uploads.</li>
+  <li><b>OAuth access token</b> — stored only on the channel owner's computer, in the local file
+  <code>credenciais/token.json</code>. It is used only to upload videos to the owner's own channel.</li>
+  <li><b>ID of each uploaded video</b> — saved locally in the tool's upload log so the owner can track their own
+  uploads (time and status of each upload).</li>
+  <li>The tool does not access any other Google account or YouTube data.</li>
   <li>No data is sent to our own or third-party servers, sold or shared. There are no cookies, analytics or ads.</li>
 </ul>
 
 <h2>How to revoke access</h2>
-<p>Access can be revoked at any time at
-<a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a>.
-After revoking, deleting the local token file removes all access data.</p>
+<p>Access can be revoked at any time in the Google account security settings:
+<a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>.</p>
+
+<h2>Data deletion and retention</h2>
+<ul>
+  <li>To delete the data, the owner deletes the file <code>credenciais/token.json</code> and the local upload log on
+  their own computer. No copy exists anywhere else.</li>
+  <li>After access is revoked, the token stops working and no YouTube or Google account data is accessed anymore.</li>
+  <li>Retention: the token is kept only while the tool is in use and is deleted when access is revoked or the tool is
+  no longer used. Video IDs stay in the local log until the owner deletes it.</li>
+  <li>Deletion requests can be sent to <a href="mailto:audiotimports@gmail.com">audiotimports@gmail.com</a> and are
+  handled within 7 days.</li>
+</ul>
 
 <h2>YouTube and Google terms</h2>
 <p>By using this tool, the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the
 <a href="https://policies.google.com/privacy">Google Privacy Policy</a> apply.</p>
 
 <h2>Contact</h2>
-<p>audiotimports@gmail.com</p>
+<p><a href="mailto:audiotimports@gmail.com">audiotimports@gmail.com</a></p>
 </div>
 
 </body>
